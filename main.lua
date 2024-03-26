@@ -4,6 +4,12 @@ if arg[2] == "debug" then
     require("lldebugger").start()
 end
 
+-- love.load loop
+
+function love.load()
+
+end
+
 -- love.update loop
 
 function love.update(dt)
